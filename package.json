@@ -1,0 +1,26 @@
+{
+  "name": "conductor",
+  "version": "1.0.0",
+  "description": "Lightweight Node.js server to proxy HTTP connections to internal ports based on the requested host.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aydenp/Conductor.git"
+  },
+  "author": "Ayden Panhuyzen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aydenp/Conductor/issues"
+  },
+  "homepage": "https://github.com/aydenp/Conductor#readme",
+  "dependencies": {
+    "death": "^1.1.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.5.1",
+    "nat-upnp": "github:nicolasnoble/node-nat-upnp#patch-1"
+  }
+}
